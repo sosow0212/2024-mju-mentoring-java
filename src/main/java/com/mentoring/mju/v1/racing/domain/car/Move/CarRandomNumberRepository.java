@@ -1,10 +1,9 @@
-package com.mentoring.mju.v1.racing.domain.car;
+package com.mentoring.mju.v1.racing.domain.car.Move;
+
+import java.util.Random;
 
 public interface CarRandomNumberRepository {
-    CarRandomNumberRepository RandomNumberGo();
-
-
-
+    void saveNumber(CarRandomNumber randomNumber);
 
 }
 
