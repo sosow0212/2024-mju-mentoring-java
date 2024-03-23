@@ -12,9 +12,7 @@ public class CarMove extends InputView {
         Random random = new Random();
         int randomNumberStore = random.nextInt(0, 9);
         if (randomNumberStore > 3) {
-
         }
-
         for (int i = 0; i < chanceNumber; i++) {
 
         }
